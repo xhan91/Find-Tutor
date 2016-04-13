@@ -10,9 +10,64 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var avatarImageView: UIImageView!
+    @IBOutlet weak var specialtiesLabel: UITextView!
+    @IBOutlet weak var emailLabel: UITextView!
+    @IBOutlet weak var phoneLabel: UITextView!
+    @IBOutlet weak var githubLabel: UITextView!
+    @IBOutlet weak var ondutyLabel: UITextView!
+    @IBOutlet weak var twitterLabel: UITextView!
+    @IBOutlet weak var skypeLabel: UITextView!
+    @IBOutlet weak var slackLabel: UITextView!
+    @IBOutlet weak var companyLabel: UITextView!
+    @IBOutlet weak var bioLabel: UITextView!
+    @IBOutlet weak var quickyFactLabel: UITextView!
+    
+    
     var tutorID = ""
     var tutorDetails: TutorDetails? {
         didSet {
+            nameLabel.text = tutorDetails!.firstName + tutorDetails!.lastName
+            let data = NSData(contentsOfURL: NSURL(string: tutorDetails!.avatarURL)!)!
+            avatarImageView.image = UIImage(data: data)
+            let specialtiesString = tutorDetails?.specialties.joinWithSeparator(", ")
+            specialtiesLabel.text = specialtiesString!
+            emailLabel.text = tutorDetails?.email
+            phoneLabel.text = tutorDetails?.phoneNumber
+            githubLabel.text = "https://github.com/" + (tutorDetails?.githubUsername)!
+            if tutorDetails!.onDuty {
+                ondutyLabel.text = "Yes"
+            } else {
+                ondutyLabel.text = "No"
+            }
+            if let twitter = tutorDetails?.twitter {
+                twitterLabel.text = twitter
+            }
+            if let skype = tutorDetails?.skype {
+                skypeLabel.text = skype
+            }
+            if let slack = tutorDetails?.slack {
+                slackLabel.text = slack
+            }
+            if let company = tutorDetails?.companyName {
+                companyLabel.text = company
+                if let companyURL = tutorDetails?.companyURL {
+                    companyLabel.text! += companyURL
+                }
+            }
+            if let bio = tutorDetails?.bio {
+                bioLabel.text = bio
+            }
+            if let quickyFact = tutorDetails?.quirkyFact {
+                quickyFactLabel.text = quickyFact
+            }
+            if let urlString = tutorDetails?.customAvatarURL,
+                let url = NSURL(string: urlString),
+                let data = NSData(contentsOfURL: url),
+                let image = UIImage(data: data) {
+                avatarImageView.image = image
+            }
             
         }
     }
