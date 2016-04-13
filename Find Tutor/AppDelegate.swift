@@ -8,6 +8,8 @@
 
 import UIKit
 
+var x = ""
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
