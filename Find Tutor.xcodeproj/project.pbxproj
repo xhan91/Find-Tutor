@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F970C4A71CBEA3EB00F39FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4A61CBEA3EB00F39FB9 /* AppDelegate.swift */; };
+		F970C4A91CBEA3EB00F39FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4A81CBEA3EB00F39FB9 /* ViewController.swift */; };
+		F970C4AC1CBEA3EC00F39FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F970C4AA1CBEA3EC00F39FB9 /* Main.storyboard */; };
+		F970C4AE1CBEA3EC00F39FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F970C4AD1CBEA3EC00F39FB9 /* Assets.xcassets */; };
+		F970C4B11CBEA3EC00F39FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F970C4AF1CBEA3EC00F39FB9 /* LaunchScreen.storyboard */; };
+		F970C4BC1CBEA3EC00F39FB9 /* Find_TutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4BB1CBEA3EC00F39FB9 /* Find_TutorTests.swift */; };
+		F970C4C71CBEA3ED00F39FB9 /* Find_TutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4C61CBEA3ED00F39FB9 /* Find_TutorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F970C4B81CBEA3EC00F39FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F970C49B1CBEA3EA00F39FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F970C4A21CBEA3EA00F39FB9;
+			remoteInfo = "Find Tutor";
+		};
+		F970C4C31CBEA3ED00F39FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F970C49B1CBEA3EA00F39FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F970C4A21CBEA3EA00F39FB9;
+			remoteInfo = "Find Tutor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F970C4A31CBEA3EB00F39FB9 /* Find Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F970C4A61CBEA3EB00F39FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F970C4A81CBEA3EB00F39FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F970C4AB1CBEA3EC00F39FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F970C4AD1CBEA3EC00F39FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F970C4B01CBEA3EC00F39FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F970C4B21CBEA3EC00F39FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F970C4B71CBEA3EC00F39FB9 /* Find TutorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find TutorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F970C4BB1CBEA3EC00F39FB9 /* Find_TutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_TutorTests.swift; sourceTree = "<group>"; };
+		F970C4BD1CBEA3EC00F39FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F970C4C21CBEA3ED00F39FB9 /* Find TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F970C4C61CBEA3ED00F39FB9 /* Find_TutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_TutorUITests.swift; sourceTree = "<group>"; };
+		F970C4C81CBEA3ED00F39FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F970C4A01CBEA3EA00F39FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F970C4B41CBEA3EC00F39FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F970C4BF1CBEA3EC00F39FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F970C49A1CBEA3EA00F39FB9 = {
+			isa = PBXGroup;
+			children = (
+				F970C4A51CBEA3EB00F39FB9 /* Find Tutor */,
+				F970C4BA1CBEA3EC00F39FB9 /* Find TutorTests */,
+				F970C4C51CBEA3ED00F39FB9 /* Find TutorUITests */,
+				F970C4A41CBEA3EB00F39FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F970C4A41CBEA3EB00F39FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F970C4A31CBEA3EB00F39FB9 /* Find Tutor.app */,
+				F970C4B71CBEA3EC00F39FB9 /* Find TutorTests.xctest */,
+				F970C4C21CBEA3ED00F39FB9 /* Find TutorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F970C4A51CBEA3EB00F39FB9 /* Find Tutor */ = {
+			isa = PBXGroup;
+			children = (
+				F970C4A61CBEA3EB00F39FB9 /* AppDelegate.swift */,
+				F970C4A81CBEA3EB00F39FB9 /* ViewController.swift */,
+				F970C4AA1CBEA3EC00F39FB9 /* Main.storyboard */,
+				F970C4AD1CBEA3EC00F39FB9 /* Assets.xcassets */,
+				F970C4AF1CBEA3EC00F39FB9 /* LaunchScreen.storyboard */,
+				F970C4B21CBEA3EC00F39FB9 /* Info.plist */,
+			);
+			path = "Find Tutor";
+			sourceTree = "<group>";
+		};
+		F970C4BA1CBEA3EC00F39FB9 /* Find TutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F970C4BB1CBEA3EC00F39FB9 /* Find_TutorTests.swift */,
+				F970C4BD1CBEA3EC00F39FB9 /* Info.plist */,
+			);
+			path = "Find TutorTests";
+			sourceTree = "<group>";
+		};
+		F970C4C51CBEA3ED00F39FB9 /* Find TutorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F970C4C61CBEA3ED00F39FB9 /* Find_TutorUITests.swift */,
+				F970C4C81CBEA3ED00F39FB9 /* Info.plist */,
+			);
+			path = "Find TutorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F970C4A21CBEA3EA00F39FB9 /* Find Tutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F970C4CB1CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find Tutor" */;
+			buildPhases = (
+				F970C49F1CBEA3EA00F39FB9 /* Sources */,
+				F970C4A01CBEA3EA00F39FB9 /* Frameworks */,
+				F970C4A11CBEA3EA00F39FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find Tutor";
+			productName = "Find Tutor";
+			productReference = F970C4A31CBEA3EB00F39FB9 /* Find Tutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F970C4B61CBEA3EC00F39FB9 /* Find TutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F970C4CE1CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find TutorTests" */;
+			buildPhases = (
+				F970C4B31CBEA3EC00F39FB9 /* Sources */,
+				F970C4B41CBEA3EC00F39FB9 /* Frameworks */,
+				F970C4B51CBEA3EC00F39FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F970C4B91CBEA3EC00F39FB9 /* PBXTargetDependency */,
+			);
+			name = "Find TutorTests";
+			productName = "Find TutorTests";
+			productReference = F970C4B71CBEA3EC00F39FB9 /* Find TutorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F970C4C11CBEA3EC00F39FB9 /* Find TutorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F970C4D11CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find TutorUITests" */;
+			buildPhases = (
+				F970C4BE1CBEA3EC00F39FB9 /* Sources */,
+				F970C4BF1CBEA3EC00F39FB9 /* Frameworks */,
+				F970C4C01CBEA3EC00F39FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F970C4C41CBEA3ED00F39FB9 /* PBXTargetDependency */,
+			);
+			name = "Find TutorUITests";
+			productName = "Find TutorUITests";
+			productReference = F970C4C21CBEA3ED00F39FB9 /* Find TutorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F970C49B1CBEA3EA00F39FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xhan91;
+				TargetAttributes = {
+					F970C4A21CBEA3EA00F39FB9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 985SCTYCG4;
+					};
+					F970C4B61CBEA3EC00F39FB9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 985SCTYCG4;
+						TestTargetID = F970C4A21CBEA3EA00F39FB9;
+					};
+					F970C4C11CBEA3EC00F39FB9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 985SCTYCG4;
+						TestTargetID = F970C4A21CBEA3EA00F39FB9;
+					};
+				};
+			};
+			buildConfigurationList = F970C49E1CBEA3EA00F39FB9 /* Build configuration list for PBXProject "Find Tutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F970C49A1CBEA3EA00F39FB9;
+			productRefGroup = F970C4A41CBEA3EB00F39FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F970C4A21CBEA3EA00F39FB9 /* Find Tutor */,
+				F970C4B61CBEA3EC00F39FB9 /* Find TutorTests */,
+				F970C4C11CBEA3EC00F39FB9 /* Find TutorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F970C4A11CBEA3EA00F39FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F970C4B11CBEA3EC00F39FB9 /* LaunchScreen.storyboard in Resources */,
+				F970C4AE1CBEA3EC00F39FB9 /* Assets.xcassets in Resources */,
+				F970C4AC1CBEA3EC00F39FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F970C4B51CBEA3EC00F39FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F970C4C01CBEA3EC00F39FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F970C49F1CBEA3EA00F39FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F970C4A91CBEA3EB00F39FB9 /* ViewController.swift in Sources */,
+				F970C4A71CBEA3EB00F39FB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F970C4B31CBEA3EC00F39FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F970C4BC1CBEA3EC00F39FB9 /* Find_TutorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F970C4BE1CBEA3EC00F39FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F970C4C71CBEA3ED00F39FB9 /* Find_TutorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F970C4B91CBEA3EC00F39FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F970C4A21CBEA3EA00F39FB9 /* Find Tutor */;
+			targetProxy = F970C4B81CBEA3EC00F39FB9 /* PBXContainerItemProxy */;
+		};
+		F970C4C41CBEA3ED00F39FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F970C4A21CBEA3EA00F39FB9 /* Find Tutor */;
+			targetProxy = F970C4C31CBEA3ED00F39FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F970C4AA1CBEA3EC00F39FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F970C4AB1CBEA3EC00F39FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F970C4AF1CBEA3EC00F39FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F970C4B01CBEA3EC00F39FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F970C4C91CBEA3ED00F39FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F970C4CA1CBEA3ED00F39FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F970C4CC1CBEA3ED00F39FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Find Tutor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhan91.Find-Tutor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F970C4CD1CBEA3ED00F39FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Find Tutor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhan91.Find-Tutor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F970C4CF1CBEA3ED00F39FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Find TutorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhan91.Find-TutorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find Tutor.app/Find Tutor";
+			};
+			name = Debug;
+		};
+		F970C4D01CBEA3ED00F39FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Find TutorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhan91.Find-TutorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Find Tutor.app/Find Tutor";
+			};
+			name = Release;
+		};
+		F970C4D21CBEA3ED00F39FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Find TutorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhan91.Find-TutorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Find Tutor";
+			};
+			name = Debug;
+		};
+		F970C4D31CBEA3ED00F39FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Find TutorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xhan91.Find-TutorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Find Tutor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F970C49E1CBEA3EA00F39FB9 /* Build configuration list for PBXProject "Find Tutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F970C4C91CBEA3ED00F39FB9 /* Debug */,
+				F970C4CA1CBEA3ED00F39FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F970C4CB1CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find Tutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F970C4CC1CBEA3ED00F39FB9 /* Debug */,
+				F970C4CD1CBEA3ED00F39FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F970C4CE1CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find TutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F970C4CF1CBEA3ED00F39FB9 /* Debug */,
+				F970C4D01CBEA3ED00F39FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F970C4D11CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find TutorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F970C4D21CBEA3ED00F39FB9 /* Debug */,
+				F970C4D31CBEA3ED00F39FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F970C49B1CBEA3EA00F39FB9 /* Project object */;
+}
