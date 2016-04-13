@@ -13,6 +13,13 @@
 		F970C4B11CBEA3EC00F39FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F970C4AF1CBEA3EC00F39FB9 /* LaunchScreen.storyboard */; };
 		F970C4BC1CBEA3EC00F39FB9 /* Find_TutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4BB1CBEA3EC00F39FB9 /* Find_TutorTests.swift */; };
 		F970C4C71CBEA3ED00F39FB9 /* Find_TutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4C61CBEA3ED00F39FB9 /* Find_TutorUITests.swift */; };
+		F970C4D51CBEAC1C00F39FB9 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4D41CBEAC1C00F39FB9 /* Tutor.swift */; };
+		F970C4D71CBEAEDF00F39FB9 /* TutorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4D61CBEAEDF00F39FB9 /* TutorDetails.swift */; };
+		F970C4DC1CBEBA1500F39FB9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4DB1CBEBA1500F39FB9 /* Extensions.swift */; };
+		F970C4DE1CBEBCA800F39FB9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4DD1CBEBCA800F39FB9 /* SearchViewController.swift */; };
+		F970C4E01CBECCB400F39FB9 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4DF1CBECCB400F39FB9 /* SearchTableViewController.swift */; };
+		F970C4E21CBED72900F39FB9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4E11CBED72900F39FB9 /* DetailViewController.swift */; };
+		F970C4E41CBED86F00F39FB9 /* TutorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F970C4E31CBED86F00F39FB9 /* TutorViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		F970C4C21CBEA3ED00F39FB9 /* Find TutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find TutorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F970C4C61CBEA3ED00F39FB9 /* Find_TutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_TutorUITests.swift; sourceTree = "<group>"; };
 		F970C4C81CBEA3ED00F39FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F970C4D41CBEAC1C00F39FB9 /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		F970C4D61CBEAEDF00F39FB9 /* TutorDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorDetails.swift; sourceTree = "<group>"; };
+		F970C4DB1CBEBA1500F39FB9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F970C4DD1CBEBCA800F39FB9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F970C4DF1CBECCB400F39FB9 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		F970C4E11CBED72900F39FB9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F970C4E31CBED86F00F39FB9 /* TutorViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,11 @@
 			children = (
 				F970C4A61CBEA3EB00F39FB9 /* AppDelegate.swift */,
 				F970C4AA1CBEA3EC00F39FB9 /* Main.storyboard */,
+				F970C4E31CBED86F00F39FB9 /* TutorViewCell.swift */,
+				F970C4E11CBED72900F39FB9 /* DetailViewController.swift */,
+				F970C4DF1CBECCB400F39FB9 /* SearchTableViewController.swift */,
+				F970C4DD1CBEBCA800F39FB9 /* SearchViewController.swift */,
+				F970C4D81CBEB9DF00F39FB9 /* Model */,
 				F970C4AD1CBEA3EC00F39FB9 /* Assets.xcassets */,
 				F970C4AF1CBEA3EC00F39FB9 /* LaunchScreen.storyboard */,
 				F970C4B21CBEA3EC00F39FB9 /* Info.plist */,
@@ -120,6 +139,16 @@
 				F970C4C81CBEA3ED00F39FB9 /* Info.plist */,
 			);
 			path = "Find TutorUITests";
+			sourceTree = "<group>";
+		};
+		F970C4D81CBEB9DF00F39FB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F970C4DB1CBEBA1500F39FB9 /* Extensions.swift */,
+				F970C4D41CBEAC1C00F39FB9 /* Tutor.swift */,
+				F970C4D61CBEAEDF00F39FB9 /* TutorDetails.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F970C4DE1CBEBCA800F39FB9 /* SearchViewController.swift in Sources */,
+				F970C4E01CBECCB400F39FB9 /* SearchTableViewController.swift in Sources */,
 				F970C4A71CBEA3EB00F39FB9 /* AppDelegate.swift in Sources */,
+				F970C4D71CBEAEDF00F39FB9 /* TutorDetails.swift in Sources */,
+				F970C4D51CBEAC1C00F39FB9 /* Tutor.swift in Sources */,
+				F970C4DC1CBEBA1500F39FB9 /* Extensions.swift in Sources */,
+				F970C4E21CBED72900F39FB9 /* DetailViewController.swift in Sources */,
+				F970C4E41CBED86F00F39FB9 /* TutorViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +519,7 @@
 				F970C4CD1CBEA3ED00F39FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F970C4CE1CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find TutorTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +528,7 @@
 				F970C4D01CBEA3ED00F39FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F970C4D11CBEA3ED00F39FB9 /* Build configuration list for PBXNativeTarget "Find TutorUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +537,7 @@
 				F970C4D31CBEA3ED00F39FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
